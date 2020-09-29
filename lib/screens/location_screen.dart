@@ -42,7 +42,7 @@ class _LocationScreenState extends State<LocationScreen> {
         cityName = '';
         return;
       }
-      double temp = weatherData['main']['temp'];
+      double temp = weatherData['main']['temp'].toDouble();
       temperature = temp.toInt();
       condition = weatherData['weather'][0]['id'];
       cityName = weatherData['name'];
