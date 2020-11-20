@@ -11,6 +11,7 @@ import 'location_screen.dart';
 const apiKey = 'b89a435524b937671c520c3984b49c5e';
 
 class LoadingScreen extends StatefulWidget {
+  static String id = 'loading-screen';
   @override
   _LoadingScreenState createState() => _LoadingScreenState();
 }
