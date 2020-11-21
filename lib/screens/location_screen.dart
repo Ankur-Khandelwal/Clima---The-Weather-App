@@ -151,7 +151,7 @@ class _LocationScreenState extends State<LocationScreen> {
                 ),
                 TextButton(
                   onPressed: () {
-                    SystemNavigator.pop();
+                    onBackPressed(context);
                   },
                   child: Text(
                     'Exit',
